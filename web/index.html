@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UwU Cat Cafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app" class="app hidden">
+    <div class="shell" role="application" aria-label="UwU Cat Cafe tablet">
+        <span class="tablet-camera" aria-hidden="true"></span>
+        <div class="tablet-screen">
+            <aside class="sidebar">
+                <div class="brand">
+                    <img class="brand-mark" src="assets/uwu-cafe-logo.png" alt="UwU Cat Café logo">
+                    <div class="brand-copy">
+                        <h1>UWU CAT CAFÉ</h1>
+                        <p>CAFE OPERATIONS</p>
+                    </div>
+                </div>
+                <div class="sidebar-mode" id="sidebarModeLabel">Employee tablet</div>
+                <nav id="navigation" aria-label="Tablet navigation"></nav>
+                <div class="profile-card">
+                    <div class="avatar">U</div>
+                    <div class="profile-copy">
+                        <strong id="profileName">Guest</strong>
+                        <span id="profileRole">Customer</span>
+                    </div>
+                </div>
+            </aside>
+            <main class="main">
+                <header class="topbar">
+                    <div><p class="eyebrow">UWU OPERATIONS</p><h2 id="pageTitle">Menu</h2></div>
+                </header>
+                <section id="content" class="content" tabindex="0"></section>
+            </main>
+        </div>
+        <button class="tablet-home-indicator" id="tabletHomeButton" type="button" aria-label="Close tablet"></button>
+    </div>
+    <div id="toast" class="toast"></div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

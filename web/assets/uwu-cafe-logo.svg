@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">UwU Cat Café logo</title>
+  <desc id="desc">A pink cat face with a small café cup emblem.</desc>
+  <defs>
+    <linearGradient id="bg" x1="12" y1="8" x2="84" y2="88" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f29abe"/>
+      <stop offset="1" stop-color="#c45f91"/>
+    </linearGradient>
+    <linearGradient id="cup" x1="33" y1="58" x2="63" y2="78" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff8fb"/>
+      <stop offset="1" stop-color="#f7dce8"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="92" height="92" rx="18" fill="url(#bg)"/>
+  <rect x="2.75" y="2.75" width="90.5" height="90.5" rx="17.25" fill="none" stroke="#ffffff" stroke-opacity=".28" stroke-width="1.5"/>
+  <path d="M25 36 20 19l17 8.2A35 35 0 0 1 48 25c3.9 0 7.6.7 11 2.2L76 19l-5 17a29 29 0 0 1 5 16.2C76 69.2 63.5 81 48 81S20 69.2 20 52.2A29 29 0 0 1 25 36Z" fill="#241922" fill-opacity=".92"/>
+  <path d="m27.8 28.5-2.2-7.4 8.2 4.1a28 28 0 0 0-6 3.3Zm40.4 0 2.2-7.4-8.2 4.1a28 28 0 0 1 6 3.3Z" fill="#ffe4ef" fill-opacity=".9"/>
+  <ellipse cx="38" cy="48" rx="3.2" ry="4.4" fill="#fff8fb"/>
+  <ellipse cx="58" cy="48" rx="3.2" ry="4.4" fill="#fff8fb"/>
+  <path d="M45.2 55.5c1.7 1.3 3.9 1.3 5.6 0" fill="none" stroke="#fff8fb" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M41 59.2c1.4 3.4 3.8 5.1 7 5.1s5.6-1.7 7-5.1" fill="none" stroke="#fff8fb" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M33 68h25v5.2A6.8 6.8 0 0 1 51.2 80H39.8A6.8 6.8 0 0 1 33 73.2V68Z" fill="url(#cup)"/>
+  <path d="M58 70h3.2a4.2 4.2 0 1 1 0 8.4H57" fill="none" stroke="#fff8fb" stroke-width="3" stroke-linecap="round"/>
+  <path d="M39 63.5c-2.7-3.5 2.7-5.1 0-8.6M47 63.5c-2.7-3.5 2.7-5.1 0-8.6M55 63.5c-2.7-3.5 2.7-5.1 0-8.6" fill="none" stroke="#ffe4ef" stroke-width="2" stroke-linecap="round" opacity=".85"/>
+</svg>
